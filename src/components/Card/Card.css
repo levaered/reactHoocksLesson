@@ -1,0 +1,25 @@
+.img-wrapper{
+    flex: 1;
+    height: 15rem;
+    background-repeat: none;
+    background-size: cover;
+    background-position: center;
+    filter: grayscale(80%);
+}
+.img-wrapper:hover{
+    filter: grayscale(0%);
+    transition: 1s;
+    cursor: pointer;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.modal-content{
+    overflow: hidden;
+    position: relative;
+}
+.modal-header{
+    top: 0;
+    position: absolute;
+}
